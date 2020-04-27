@@ -1,0 +1,20 @@
+[
+  {
+    "id": "123",
+    "codeEan": "45654565456", 
+    "name": "",
+    "image": {
+      "url": ""
+    },
+    "description": "",
+    "price": "",
+    "benchmarketingPrice": [
+      {
+        "origin": "",
+        "price": "",
+        "section": "",
+        "dateTime": ""
+      }
+    ]
+  }
+]
