@@ -1,3 +1,7 @@
+# Custom
+*.sqlite
+yarn.lock
+
 # Logs
 logs
 *.log
