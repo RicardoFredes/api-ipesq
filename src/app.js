@@ -3,6 +3,7 @@ const app = express()
 
 app.use(express.json())
 app.use(Router(express.Router))
+app.get('/', (req, res) => res.send('Api Ipesq'))
 
 module.exports = app
 

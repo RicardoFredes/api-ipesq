@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "routes": [
-    { "src": "/(.*)", "dest": "src/app.js" }
-  ],
-  "builds": [
-    { "src": "src/app.js", "use": "@now/node" }
-  ]
-}
