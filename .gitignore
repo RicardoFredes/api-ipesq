@@ -1,6 +1,7 @@
 # Custom
 *.sqlite
 yarn.lock
+.now*
 
 # Logs
 logs
