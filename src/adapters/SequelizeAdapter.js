@@ -7,7 +7,7 @@ class SequelizeAdapter {
   Schema
 
   constructor() {
-    this.database = new Sequelize(config.development)
+    this.database = new Sequelize(config.production)
     this.Schema = Sequelize.DataTypes
   }
 
