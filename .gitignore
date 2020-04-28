@@ -1,5 +1,6 @@
 # Custom
 yarn.lock
+*.lock*
 .now*
 
 # Logs
