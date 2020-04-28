@@ -21,8 +21,8 @@ class UsersController extends Controller {
     return users.map(user => this.parsedUser(user))
   }
 
-  async save({ name, email }) {
-    const data = { name, email }
+  async save({ name, email, phoneNumber, role = 'OPERATOR' }) {
+    const data = { name, email, phoneNumber, role }
     if (!this.validate(data)) return this.sendError(invalidProvides)
     const user = await this.db.create(data)
     if (!user) this.sendError(serverError)
